@@ -19,7 +19,7 @@ bot.
 
 import logging
 
-from telegram import Update
+from telegram import Updater
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
 # Enable logging
